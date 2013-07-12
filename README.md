@@ -1,6 +1,6 @@
 ## ReiMonkey
 
-**LATEST RELEASE: ReiMonkey 2.0.0** *for Minecraft 1.6.2*
+**LATEST RELEASE: [ReiMonkey 2.0.0](https://github.com/TekkifyLife/ReiMonkey/releases/download/2.0.0/ReiMonkey.2.0.0.jar)** *for Minecraft 1.6.2*
 
 * [Forum topic](http://www.minecraftforum.net/topic/1397908-152-reimonkey/) at Minecraft Forums  
 * [Original mod](http://minecraftmonkey.wordpress.com/2012/04/24/reimonkey/) at minecraftmonkey
