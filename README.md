@@ -1,6 +1,6 @@
 ## ReiMonkey
 
-**LATEST RELEASE: [ReiMonkey v2.0.1](https://github.com/TekkifyLife/ReiMonkey/releases/download/2.0.1/ReiMonkey.2.0.1.jar)** *for Minecraft 1.6.2*
+**LATEST RELEASE: [ReiMonkey v2.0.1](https://github.com/TekkifyLife/ReiMonkey/releases/download/2.0.1/ReiMonkey.2.0.1.jar)** for Minecraft 1.6.2
 
 * [Forum topic](http://www.minecraftforum.net/topic/1397908-162-reimonkey/) at Minecraft Forums  
 * [Original mod](http://minecraftmonkey.wordpress.com/2012/04/24/reimonkey/) at minecraftmonkey
@@ -21,4 +21,4 @@ to access this repository directly, send a message to my [e-mail](mailto:tekkify
 [JonaK](http://www.minecraftforum.net/user/1512157-jonak/) on the Minecraft Forums.
 
 ### Building From Source
-Coming soon…
+Documentation will be coming soon. For now, all you can do is figure it out for yourself.
