@@ -1,3 +1,8 @@
+/*
+ * ReiMonkey by TekkifyLife
+ * Original mod by minecraftmonkey
+ */
+
 package net.minecraft.src;
 
 import net.minecraft.client.Minecraft;
@@ -8,6 +13,7 @@ import com.tekkifylife.reimonkey.Strings;
 
 public class mod_ReiMonkey extends BaseMod {
 
+	/* Variable for storing Rei's Minimap's function class */
 	private Object rm;
 
 	public String getName() {
@@ -31,14 +37,19 @@ public class mod_ReiMonkey extends BaseMod {
 
 		try {
 
+			/* Obtain fields and set them to the variable declared above */
 			rm = Class.forName("reifnsk.minimap.ReiMinimap").getDeclaredField("instance").get(null);
 
 		} catch (Exception e) {
 
+			/* Send the player a message since Rei's Minimap is corrupted or missing. */
 			mc.thePlayer.addChatMessage(Strings.REIS_MINIMAP_MISSING);
+			
+			/* Stop this function */
 			return false;
 		}
-			
+
+		/* Set everything to allow, may consider a toggle later. */
 		ReiMonkey.setTrue(rm, "allowCavemap");
 		ReiMonkey.setTrue(rm, "allowEntitiesRadar");
 		ReiMonkey.setTrue(rm, "allowEntityPlayer");
