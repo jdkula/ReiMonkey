@@ -6,7 +6,7 @@
   "version": "@VERSION@",
   "mcversion": "@MCVERSION@",
   "logoFile": "/pack.png",
-  "url": "http://www.minecraftforum.net/topic/1397908-152-reimonkey/",
+  "url": "https://github.com/TekkifyLife/ReiMonkey",
   "updateUrl": "",
   "authors": ["TekkifyLife", "JonaK", "minecraftmonkey", "and others"],
   "credits": "Maintained by TekkifyLife and JonaK. Original by minecraftmonkey.",
