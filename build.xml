@@ -5,16 +5,12 @@
 		<delete dir="${build.dir.mcp}\src\minecraft\com\" />
 		<delete file="${build.dir.mcp}\src\minecraft\net\minecraft\src\mod_ReiMonkey.java" />
 		<delete file="${build.dir.mcp}\src\minecraft\mcmod.info" />
-		<delete file="${build.dir.mcp}\src\minecraft\pack.mcmeta" />
-		<delete file="${build.dir.mcp}\src\minecraft\pack.png" />
 	</target>
 	<target name="build">
 		<antcall target="clean" />
 		<copy todir="${build.dir.mcp}\src\minecraft\">
 			<fileset dir="${build.dir.reimonkey}\src\" />
 			<fileset file="${build.dir.reimonkey}\resources\mcmod.info" />
-			<fileset file="${build.dir.reimonkey}\resources\pack.mcmeta" />
-			<fileset file="${build.dir.reimonkey}\resources\pack.png" />
 		</copy>
 		<replace dir="${build.dir.mcp}\src\minecraft\" token="@MCVERSION@" value="${build.minecraft.version}" />
 		<replace dir="${build.dir.mcp}\src\minecraft\" token="@VERSION@" value="${build.reimonkey.version}" />
@@ -33,8 +29,9 @@
 		<jar destfile="${build.dir.release}\${build.minecraft.version}\ReiMonkey\ReiMonkey ${build.reimonkey.version}.jar">
 			<fileset dir="${build.dir.mcp}\reobf\minecraft\" />
 			<fileset file="${build.dir.mcp}\src\minecraft\mcmod.info" />
-			<fileset file="${build.dir.mcp}\src\minecraft\pack.mcmeta" />
-			<fileset file="${build.dir.mcp}\src\minecraft\pack.png" />
+            <fileset file="${build.dir.reimonkey}\lgpl-3.0.txt" />
+            <fileset file="${build.dir.reimonkey}\resources\pack.mcmeta" />
+            <fileset file="${build.dir.reimonkey}\resources\pack.png" />
 		</jar>
 		<antcall target="clean" />
 	</target>
