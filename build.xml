@@ -2,50 +2,40 @@
 <project name="ReiMonkey" basedir="." default="build">
 	<property file="build.properties" prefix="build" />
 	<target name="clean">
-		<delete file="${build.dir.mcp}\src\minecraft\mcmod.info" />
-		<delete file="${build.dir.mcp}\src\minecraft\net\minecraft\src\mod_ReiMonkey.java" />
 		<delete dir="${build.dir.mcp}\src\minecraft\com\" />
+		<delete file="${build.dir.mcp}\src\minecraft\net\minecraft\src\mod_ReiMonkey.java" />
+		<delete file="${build.dir.mcp}\src\minecraft\mcmod.info" />
+		<delete file="${build.dir.mcp}\src\minecraft\pack.mcmeta" />
+		<delete file="${build.dir.mcp}\src\minecraft\pack.png" />
 	</target>
-	<target name="prep">
+	<target name="build">
+		<antcall target="clean" />
 		<copy todir="${build.dir.mcp}\src\minecraft\">
 			<fileset dir="${build.dir.reimonkey}\src\" />
 			<fileset file="${build.dir.reimonkey}\resources\mcmod.info" />
+			<fileset file="${build.dir.reimonkey}\resources\pack.mcmeta" />
+			<fileset file="${build.dir.reimonkey}\resources\pack.png" />
 		</copy>
-	</target>
-	<target name="replace">
 		<replace dir="${build.dir.mcp}\src\minecraft\" token="@MCVERSION@" value="${build.minecraft.version}" />
 		<replace dir="${build.dir.mcp}\src\minecraft\" token="@VERSION@" value="${build.reimonkey.version}" />
-	</target>
-	<target name="recompile">
 		<exec dir="${build.dir.mcp}" executable="cmd" osfamily="windows">
 			<arg line="/c recompile.bat" />
 		</exec>
 		<exec dir="${build.dir.mcp}" executable="bash" osfamily="unix">
 			<arg line="recompile.sh" />
 		</exec>
-	</target>
-	<target name="reobfuscate">
 		<exec dir="${build.dir.mcp}" executable="cmd" osfamily="windows">
 			<arg line="/c reobfuscate.bat" />
 		</exec>
 		<exec dir="${build.dir.mcp}" executable="bash" osfamily="unix">
 			<arg line="reobfuscate.sh" />
 		</exec>
-	</target>
-	<target name="dist">
 		<jar destfile="${build.dir.release}\${build.minecraft.version}\ReiMonkey\ReiMonkey ${build.reimonkey.version}.jar">
-			<fileset file="${build.dir.mcp}\src\minecraft\mcmod.info" />
 			<fileset dir="${build.dir.mcp}\reobf\minecraft\" />
-			<fileset dir="${build.dir.reimonkey}\resources\" excludes="mcmod.info" />
+			<fileset file="${build.dir.mcp}\src\minecraft\mcmod.info" />
+			<fileset file="${build.dir.mcp}\src\minecraft\pack.mcmeta" />
+			<fileset file="${build.dir.mcp}\src\minecraft\pack.png" />
 		</jar>
-	</target>
-	<target name="build">
-		<antcall target="clean" />
-		<antcall target="prep" />
-		<antcall target="replace" />
-		<antcall target="recompile" />
-		<antcall target="reobfuscate" />
-		<antcall target="dist" />
 		<antcall target="clean" />
 	</target>
 </project>
