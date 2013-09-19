@@ -1,15 +1,15 @@
 /*
- * ReiMonkey by TekkifyLife
+ * ReiMonkey by TekkifyLife and JonaK
  * Original mod by minecraftmonkey
+ * ReiMonkey is licensed under the LGPL 3 license.
+ * http://www.gnu.org/licenses/lgpl.html
  */
 
 package net.minecraft.src;
 
 import net.minecraft.client.Minecraft;
 
-import com.tekkifylife.reimonkey.Reference;
 import com.tekkifylife.reimonkey.ReiMonkey;
-import com.tekkifylife.reimonkey.Strings;
 
 public class mod_ReiMonkey extends BaseMod {
 
@@ -18,18 +18,19 @@ public class mod_ReiMonkey extends BaseMod {
 
 	public String getName() {
 
-		return Reference.MOD_NAME;
+		return "ReiMonkey";
 	}
 
 	@Override
 	public String getVersion() {
 
-		return Reference.MOD_VERSION;
+		return "@VERSION@";
 	}
 
 	@Override
 	public void load() {
 
+		/* Register a tick hook */
 		ModLoader.setInGameHook(this, true, false);
 	}
 
@@ -41,9 +42,6 @@ public class mod_ReiMonkey extends BaseMod {
 			rm = Class.forName("reifnsk.minimap.ReiMinimap").getDeclaredField("instance").get(null);
 
 		} catch (Exception e) {
-
-			/* Send the player a message since Rei's Minimap is corrupted or missing. */
-			mc.thePlayer.addChatMessage(Strings.REIS_MINIMAP_MISSING);
 			
 			/* Stop this function */
 			return false;
