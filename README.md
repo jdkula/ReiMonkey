@@ -1,13 +1,13 @@
 ## ReiMonkey
 
 **Latest recommended release: [ReiMonkey 2.0.2](https://github.com/TekkifyLife/ReiMonkey/releases/download/2.0.2/ReiMonkey.2.0.2.jar)** for Minecraft 1.6.2  
-**Latest release: [ReiMonkey 2.0.3 Pre-release 1](https://github.com/TekkifyLife/ReiMonkey/releases/download/2.0.3/ReiMonkey.2.0.3.Pre-release.1.jar)** for Minecraft 1.6.3
+**Latest release: [ReiMonkey 2.1 Pre-release 1](https://github.com/TekkifyLife/ReiMonkey/releases/download/2.1/ReiMonkey.2.1.Pre-release.1.jar)** for Minecraft 1.6.3
 
 * [Original mod](http://minecraftmonkey.wordpress.com/2012/04/24/reimonkey/) at minecraftmonkey
-* ~~[Forum topic](http://www.minecraftforum.net/topic/1397908-162-reimonkey/) at Minecraft Forums~~ **Forum topic deleted by Minecraft Forum staff**
+* ~~[Forum topic](http://www.minecraftforum.net/topic/1397908/) at Minecraft Forums~~ **Forum topic deleted by Minecraft Forum staff**
 
 ReiMonkey currently requires ModLoader for 1.6.2, Minecraft Forge 9.10.0.789+, or Forge Mod Loader v6.2.19.789+. 
-ReiMonkey 2.0.3 Pre-release 1+ currently requires or Forge Mod Loader v6.3.2.876+ or Minecraft Forge 9.11.0.876+ 
+ReiMonkey 2.1 Pre-release 1+ currently requires or Forge Mod Loader v6.3.2.876+ or Minecraft Forge 9.11.0.876+ 
 since no ModLoader for Minecraft 1.6.3 has been released yet. ReiMonkey is a stand-alone mod and does not require 
 ei's Minimap to use, although it will not function in any useful way.
 
