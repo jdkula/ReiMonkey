@@ -11,6 +11,10 @@ ReiMonkey 2.1 Pre-release 1+ currently requires or Forge Mod Loader v6.3.2.876+ 
 since no ModLoader for Minecraft 1.6.3 has been released yet. ReiMonkey is a stand-alone mod and does not require 
 ei's Minimap to use, although it will not function in any useful way.
 
+ReiMonkey is licensed under the [LGPL 3] license. The LGPL 3 license is included with every ReiMonkey 2.1 Pre-release 1+ 
+distribution and should be unless the file was tampered with. Older versions of ReiMonkey are public domain and the
+code base is free to use (commits before commit c4dae8cdae7bc4b75218efbfa29705a18d3a1291).
+
 ### Reporting issues
 
 * Only report an issue if there is an issue with the mod not a question.
