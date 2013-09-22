@@ -1,22 +1,24 @@
 ## ReiMonkey
 
 **Latest recommended release: [ReiMonkey 2.0.2](https://github.com/TekkifyLife/ReiMonkey/releases/download/2.0.2/ReiMonkey.2.0.2.jar)** for Minecraft 1.6.2  
-**Latest release: [ReiMonkey 2.1.1 Pre-release 1](https://github.com/TekkifyLife/ReiMonkey/releases/download/2.1.1/ReiMonkey.2.1.1.Pre-release.1.jar)** for Minecraft 1.6.4
+**Latest release: [ReiMonkey 2.1.1 Pre-release 2](https://github.com/TekkifyLife/ReiMonkey/releases/download/2.1.1pr2/ReiMonkey.2.1.1.Pre-release.2.jar)** for Minecraft 1.6.4  
+View all ReiMonkey 2.0.0 and above releases [here](https://github.com/TekkifyLife/ReiMonkey/releases/).
 
 * [Original mod](http://minecraftmonkey.wordpress.com/2012/04/24/reimonkey/) at minecraftmonkey
 * ~~[Forum topic](http://www.minecraftforum.net/topic/1397908/) at Minecraft Forums~~ **Forum topic deleted by Minecraft Forum staff**
 
 ReiMonkey 2.0.2 requires ModLoader for 1.6.2, Minecraft Forge 9.10.0.789+, or Forge Mod Loader v6.2.19.789+.
 
-ReiMonkey 2.1.1 Pre-release 1 requires or Forge Mod Loader v6.4.2.880+ or Minecraft Forge 9.11.0.880+. ModLoader
-is expected to work but cannot be guarenteed because ModLoader for 1.6.4 has no been release as of this writing. 
+ReiMonkey 2.1.2 Pre-release 1 requires ModLoader, Forge Mod Loader v6.4.2.883 and above, or Minecraft Forge
+9.11.0.883 and above.
 
-ReiMonkey is a stand-alone mod and does not require Rei's Minimap to use, although it will not function in any useful way.
+ReiMonkey is a stand-alone mod and does not require Rei's Minimap to use, although it will not function in any useful 
+way.
 
-ReiMonkey 2.1 Pre-release 1+ is licensed under the [LGPL 3](https://www.gnu.org/licenses/lgpl.html) license. 
-The LGPL 3 license is included with every ReiMonkey 2.1 Pre-release 1+ distribution and should be unless the file 
-was tampered with. Older versions of ReiMonkey are public domain and the code base is free to use (commits before 
-commit <code>c4dae8cdae7bc4b75218efbfa29705a18d3a1291</code>).
+ReiMonkey 2.1 Pre-release 1 and later are licensed under the [LGPL 3](https://www.gnu.org/licenses/lgpl.html) license. 
+The LGPL 3 license is included with every ReiMonkey 2.1 Pre-release 1 and later distribution and should be unless 
+the file was tampered with. Older versions of ReiMonkey are public domain and the code base is free to use 
+(commits before commit <code>c4dae8cdae7bc4b75218efbfa29705a18d3a1291</code>).
 
 ### Reporting issues
 
@@ -26,10 +28,10 @@ commit <code>c4dae8cdae7bc4b75218efbfa29705a18d3a1291</code>).
 
 
 ### Contributing
-Fork this repository and make changes, then submit a [pull request](https://github.com/TekkifyLife/ReiMonkey/pulls) and I will review the changes. If you would like
-to access this repository directly, send a message to my [e-mail](mailto:tekkifylife@outlook.com) or private message
-[me](http://www.minecraftforum.net/user/2156440-tekkifylife/) or
-[JonaK](http://www.minecraftforum.net/user/1512157-jonak/) on the Minecraft Forums.
+Fork this repository and make changes, then submit a [pull request](https://github.com/TekkifyLife/ReiMonkey/pulls) 
+and I will review the changes. If you would like to access this repository directly, send a message to 
+my [e-mail](mailto:tekkifylife@outlook.com) or private message [me](http://www.minecraftforum.net/user/2156440-tekkifylife/) 
+or [JonaK](http://www.minecraftforum.net/user/1512157-jonak/) on the Minecraft Forums.
 
 ### Building From Source
 1. Download [MCP](http://t.co/DxS376GIte) and [ModLoader](http://www.minecraftforum.net/topic/75440-v162-risugamis-mods-updated/)
