@@ -1,16 +1,15 @@
 ## ReiMonkey
 
-**Latest recommended release: [ReiMonkey 2.0.2](https://github.com/TekkifyLife/ReiMonkey/releases/download/2.0.2/ReiMonkey.2.0.2.jar)** for Minecraft 1.6.2  
-**Latest release: [ReiMonkey 2.1.1 Pre-release 2](https://github.com/TekkifyLife/ReiMonkey/releases/download/2.1.1pr2/ReiMonkey.2.1.1.Pre-release.2.jar)** for Minecraft 1.6.4  
-View all ReiMonkey 2.0.0 and above releases [here](https://github.com/TekkifyLife/ReiMonkey/releases/).
+**Latest recommended release: [ReiMonkey 2.1.1](https://github.com/TekkifyLife/ReiMonkey/releases/download/2.1.1rel/ReiMonkey.2.1.1.jar)** for Minecraft 1.6.4   
+View all ReiMonkey 2.0.0 and above releases [here](https://github.com/TekkifyLife/ReiMonkey/releases/). Pre-ReiMonkey 2 releases at bottom.
 
+* [Rei's Minimap topic](http://www.minecraftforum.net/topic/482147-/) at Minecraft Forum
+* [Rei's Minimap topic](http://forum.minecraftuser.jp/viewtopic.php?f=13&t=153) at Minecraft Unofficial Japan Users Forum
 * [Original mod](http://minecraftmonkey.wordpress.com/2012/04/24/reimonkey/) at minecraftmonkey
-* ~~[Forum topic](http://www.minecraftforum.net/topic/1397908/) at Minecraft Forums~~ **Forum topic deleted by Minecraft Forum staff**
+* ~~[ReiMonkey topic](http://www.minecraftforum.net/topic/1397908/) at Minecraft Forum~~ **Forum topic deleted by Minecraft Forum staff**
 
-ReiMonkey 2.0.2 requires ModLoader for 1.6.2, Minecraft Forge 9.10.0.789+, or Forge Mod Loader v6.2.19.789+.
-
-ReiMonkey 2.1.2 Pre-release 1 requires ModLoader, Forge Mod Loader v6.4.2.883 and above, or Minecraft Forge
-9.11.0.883 and above.
+ReiMonkey 2.1.1 requires ModLoader, Forge Mod Loader v6.4.2.884 and above, or Minecraft Forge
+9.11.0.884 and above.
 
 ReiMonkey is a stand-alone mod and does not require Rei's Minimap to use, although it will not function in any useful 
 way.
@@ -50,14 +49,13 @@ reimonkey.version=2.1.2 Dev 1</code></pre>
 i.e. `cd (source directory path)`
 7. Run Apache Ant by typing `ant` and the mod should build to the directory specified in `build.properties`.
 
-### Old Versions
+### Old Versions (Pre-ReiMonkey 2.0.0)
 
-* Minecraft 1.5.1 + 1.5.2 by woop [[Download](http://www.mediafire.com/?m3j6g2vmvts7518)]  
-* Minecraft 1.4.6 + 1.4.7 by IX iTzRogue XI [[Download](https://dl.dropbox.com/u/23755556/ReiMonkey/Downloads/1.4.6/ReiMonkey%20v1.1.zip)]  
-* Minecraft 1.4.5 v1.1 by IX iTzRogue XI [[Download](http://goo.gl/I1YHg)]  
-* Minecraft 1.4.5 v1 by IX iTzRogue XI [[Download](https://dl.dropbox.com/u/23755556/ReiMonkey/mod_ReiMonkey.class) unavailable - 404]  
-* Minecraft 1.4.2 by catmenFromTV [[Download](https://dl.dropbox.com/u/36690916/ReiMonkey%5B1.4.2%5D.zip)]  
-* Minecraft 1.3.2 by catmenFromTV [[Download](https://dl.dropbox.com/u/36690916/mod_ReiMonkey%5B1.3.2%5D.zip)]  
-* Minecraft 1.3.1 by Crunchy_Nut [[Download](https://dl.dropbox.com/u/44164076/MinecraftMods/mod_ReiMonkey.zip) unavailable - 404]  
-* Minecraft 1.2.5 by Crunchy_Nut [[Download](https://dl.dropbox.com/u/44164076/MinecraftMods/mod_ReiMonkey.zip) unavailable - 404]  
-* Minecraft 1.2.5 by the original author [[Link](http://minecraftmonkey.wordpress.com/2012/04/24/reimonkey/)]
+* Minecraft 1.5.1 + 1.5.2 by woop [[Download]](http://www.mediafire.com/?m3j6g2vmvts7518)
+* Minecraft 1.4.6 + 1.4.7 by IX iTzRogue XI [[Download]](https://dl.dropbox.com/u/23755556/ReiMonkey/Downloads/1.4.6/ReiMonkey%20v1.1.zip) 
+* Minecraft 1.4.5 v1.1 by IX iTzRogue XI [[Download]](http://goo.gl/I1YHg)
+* Minecraft 1.4.5 v1 by IX iTzRogue XI ~~[[Download]](https://dl.dropbox.com/u/23755556/ReiMonkey/mod_ReiMonkey.class)~~ unavailable; 404
+* Minecraft 1.4.2 by catmenFromTV [[Download]](https://dl.dropbox.com/u/36690916/ReiMonkey%5B1.4.2%5D.zip)
+* Minecraft 1.3.2 by catmenFromTV [[Download]](https://dl.dropbox.com/u/36690916/mod_ReiMonkey%5B1.3.2%5D.zip)
+* Minecraft 1.3.1 by Crunchy_Nut ~~[[Download]](https://dl.dropbox.com/u/44164076/MinecraftMods/mod_ReiMonkey.zip)~~ unavailable; 404
+* Minecraft 1.2.5 by Crunchy_Nut ~~[[Download]](https://dl.dropbox.com/u/44164076/MinecraftMods/mod_ReiMonkey.zip)~~ unavailable; 404
